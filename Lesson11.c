@@ -4,10 +4,10 @@
 int main(int argc, char* argv[])
 {
     printf("x?\n");
-    int x[10];
+    int x[1];
     scanf("%d", x);
     printf("y?\n");
-    int y[10];
+    int y[1];
     scanf("%d", y);
     int z = *x+*y;
     printf("z = %d\n", z);
