@@ -5,15 +5,15 @@ int main(int argc, char* argv[])
     int x, y;
     scanf("%d %d", &x, &y);
 if(x > y)
-printf("y = %d\n", y);
+printf("%d\n", 2);
 else
-  printf("x = %d\n", x);
+  printf("%d\n", 1);
   if(x < y)
-   printf("y = %d\n", y);
+   printf("%d\n", 1);
 else
-  printf("x = %d\n", x);
+  printf("%d\n", 2);
    if(x == y)
-   printf("x == y%d\n");
+   printf("%d\n",0);
 else
   printf("%d\n",0);
   return 0;
