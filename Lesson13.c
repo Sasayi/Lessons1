@@ -1,17 +1,25 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main(int argc, char* argv[])
 {
     int x;
-
-    x = (-1 > 1) + (1 <= -1);
-
-    printf("x = %d\n", x);
-    int y;
-
-    y = (10 > -3) + (-3 <= 10);
-
-    printf("y = %d\n", y);
-    return 0;
+    scanf("%d", &x);
+    while (x !=0)
+{
+   if (x%100 == 0)
+        printf ("Year %d is no. \n",x);
+        else
+        printf ("Year %d is yes. \n",x);
+        if (x%4 == 0)
+            printf ("Year %d is yes. \n",x);
+            else
+            printf ("Year %d is no. \n",x);
+        if (x%400 == 0)
+                printf ("Year %d is yes. \n",x);
+                else
+                printf ("Year %d is no. \n",x);
+            scanf("%d", &x);
 }
+
+  return 0;
+    }
