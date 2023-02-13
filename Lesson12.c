@@ -7,10 +7,10 @@ int main(int argc, char* argv[])
 if(x > y)
 printf("%d\n", 1);
 else
-  printf("%d\n", 2);
-if(x == y)
+  if(x < y)
+printf("%d\n", 2);
+  else
+  if(x == y)
    printf("%d\n",0);
-else
-  printf("%d\n",3);
   return 0;
     }
