@@ -9,7 +9,6 @@ int main(int argc, char* argv[])
     {
     printf(" %d", i*i);
     i=i+1;
-       //i=i+1; ++i; i++
     }
     return 0;
 }
